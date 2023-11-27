@@ -1,0 +1,101 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    background-color: #f2eada;
+    color: #3e3e3e;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de la barra de navegación */
+#menu {
+    background-color: #1f2933;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-nav .nav-link {
+    color: #f2eada !important;
+}
+
+/* Estilos de secciones */
+section {
+    padding: 50px 0;
+}
+
+/* Estilos de títulos */
+h1, h2, h3 {
+    color: #1f2933;
+}
+
+/* Estilos de enlaces */
+a {
+    color: #6b7280;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1f2933;
+}
+
+/* Estilos de imágenes con clase 'img-fluid' */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para tu sección de "Verbos Modales" */
+.servicio-fila {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icono-pequeño {
+    background-color: #f2eada;
+    border: 2px solid #1f2933;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icono-pequeño:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para tu sección de "Formas" */
+#Formas {
+    background-color: #1f2933;
+    color: #f2eada;
+    padding: 50px 0;
+}
+
+#Formas h2 {
+    color: #f2eada;
+}
+
+#Formas h5 {
+    color: #f2eada;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
